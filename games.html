@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css?ver=@@b-version" rel="stylesheet">
+    <link href="start.css" rel="stylesheet">
+
+    <title>Revived Store</title>
+
+</head>
+
+<style>
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #009B00;
+        /* Windows 8.1 Metro Green */
+    }
+
+    .starttitle {
+
+        margin-left: 75px;
+
+    }
+
+    body {
+        overflow: -moz-scrollbars-horizontal;
+        overflow-y: hidden;
+    }
+
+    .previewbar {
+        /* Add your CSS properties here */
+        /* For example: */
+        background-color: #007A00;
+        color: white;
+        text-align: center;
+
+    }
+
+
+    .navbar a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+    }
+
+    .navbar img {
+        height: 49px;
+        /* Adjust the height of the logo as needed */
+        width: auto;
+        /* Adjust the width if necessary */
+        margin-right: 10px;
+        /* Adjust the margin as needed */
+    }
+
+    .navbar a:hover {
+        background-color: #007A00;
+        color: white;
+        text-decoration: none
+            /* Slightly darker shade for hover effect */
+    }
+</style>
+
+<body class="bg-white fg-black h-vh-100 m4-cloak">
+
+    <div class="previewbar">
+        <p1>This is a preview release of Revived Store.</p1>
+    </div>
+
+    <div class="navbar">
+        <img src="logo.svg" alt="Logo">
+        <a href="start.html">Store (Preview)</a>
+        <a href="games.html">Games</a>
+        <a href="apps.html">Apps</a>
+        <a href="utility.html">Utility</a>
+    </div>
+
+
+
+
+    <div class="container-fluid start-screen h-100">
+        <h1 class="starttitle">Games</h1>
+        <div class="tiles-area clear">
+            <div class="tiles-grid tiles-group size-2 fg-white">
+
+                <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-red fg-white">
+                    <span class="mif-opera icon"></span>
+                    <span class="branding-bar">Opera</span>
+                </a>
+
+                <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-orange fg-white">
+                    <span class="mif-firefox icon"></span>
+                    <span class="branding-bar">Firefox</span>
+                </a>
+
+                <div data-role="tile" class="bg-green fg-white" data-size="wide">
+                    <span class="mif-chrome icon"></span>
+                    <span class="branding-bar">Chrome</span>
+                </div>
+                <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-darkblue fg-white"
+                    data-size="wide">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/microsoft-edge-logo-black-and-white.png"
+                        class="icon">
+                    <span class="branding-bar">Microsoft Edge</span>
+                </a>
+            </div>
+
+
+
+            <div class="tiles-grid tiles-group size-1 fg-white">
+                <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-orange fg-white">
+                    <img src="brave.png" class="icon">
+                    <span class="branding-bar">Brave</span>
+                </a>
+                <div data-role="tile" class="bg-blue">
+                    <img src="chromium.png" class="icon">
+                    <span class="branding-bar">Chromium</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    <script src="start.js"></script>
+
+</body>
+
+</html>
